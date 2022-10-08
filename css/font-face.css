@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "miFuente";
+    src: url(../fonts/font1/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    /* 
+    Esta fuente se va a usar cuando se especifique un weigh de 700*/
+    font-family: "miFuente";
+    src: url(../fonts/font2/NotoSansBalinese-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+@font-face {
+    /* Esta fuente se usará cuando se especifique font style italic */
+    font-family: "miFuente";
+    src: url(../fonts/font1/Oswald-VariableFont_wght.ttf);
+    font-style: italic;
+}
+p {
+    font-size: 40px;
+}
+#text1 {
+    font-family: "miFuente";
+}
+#text2 {
+    font-family: "miFuente";
+    font-variation-settings: "wght" 555;
+}
+#text3 {
+    font-family: "miFuente";
+    font-style: italic;
+}
